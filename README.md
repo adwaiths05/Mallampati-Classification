@@ -127,19 +127,3 @@ git add models/*.pth
 git commit -m "Add model weights with LFS"
 git push origin main
 ```
-
-## Notes
-
-- Impact: Reduces subjective errors in Mallampati scoring, enhances prediction accuracy, minimizes intubation complications, and supports healthcare in underserved regions.
-
-
-
-- Git LFS: GitHub provides 1 GB free LFS storage; additional costs $5/month for 50 GB. Ensure Git LFS is installed to clone/pull model files.
-
-
-
-- Data Validation: Pipeline enforces 1000 images (250 per class). Verify dataset to avoid errors.
-
-
-
-- Logs: Check logs for dataset or training issues.
